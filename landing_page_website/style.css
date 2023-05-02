@@ -1,0 +1,525 @@
+*{  
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.page1{
+    display: grid;
+    width:100%;
+    height:100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    
+  }
+  .c1 img{
+    width:100%;
+    height: 100vh;
+}
+.c2{
+    background-color:rgb(17, 34, 34);
+}
+.content1{
+    width:100%;
+    height:50px;
+}
+.icon{
+    height:35px;
+    width:30px;
+    background-color:white;
+    position: absolute;
+    margin-left: 47.5%;
+}
+#l1{
+    width:17px;
+    height:2px;
+    background-color:rgb(17, 34, 34);
+    position: absolute;
+    margin:10px 0 0 8px;
+    padding:1px 1px;
+}
+#l2{
+    width:17px;
+    height:2px;
+    background-color:rgb(17, 34, 34) ;
+    position: absolute;
+    margin:15px 0 0 8px;
+}
+#break{
+    width:2px;
+    height:2px;
+    background-color:white;
+    position: absolute;
+    margin:15px 0 0 13px;
+}
+#l3{
+    width:17px;
+    height:2px;
+    background-color:rgb(17, 34, 34);
+    position: absolute;
+    margin:20px 0 0 8px;
+}
+  nav{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+  }
+  nav a{
+    text-decoration:none;
+    color:white;
+    margin-top:15px;
+  }
+  .discount{
+    width:100%;
+    height:40px;
+    margin-top:10px;
+    background-color:white;
+    padding: 5px 0 0 80px;
+    font-size: 20px;
+    color: rgb(17, 34, 34);
+  }
+  .title{
+    width:50%;
+    color:white;
+    position: absolute;
+    margin:30px 0 0 40px;  
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    font-size: 17px;
+    color:white;
+    position: absolute;
+    margin:170px 0 0 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.line{
+    height: 1px;
+    position:absolute;
+    margin:310px 0 0 75px;
+}
+#line1
+{   width:30%;
+    background: linear-gradient(to left,rgb(17, 34, 34),silver,rgb(17, 34, 34));
+}
+#line2{
+    width:20%;
+    margin:170px 0 0 400px;
+    rotate:90deg;
+    background: linear-gradient(to left,rgb(17, 34, 34) ,silver,rgb(17, 34, 34));
+}
+.num{
+    display: flex;
+    width:300px;
+    justify-content: space-around;
+    margin:170px 0 0 430px;
+    rotate:-90deg;
+    color:white;
+    font-size: 15px;
+} 
+.special_num{
+    display: grid;
+    margin:200px 0 0 50px;
+    color:white;
+    grid-template-rows: 40px 30px;
+    grid-template-columns: 180px 180px 180px; 
+    font-size:14px }
+ h1{
+    margin-left:20px;
+ }
+ .balance{
+     margin-left:40px;
+ }
+ .page2{
+    display: grid;
+    width:100%;
+    height:150vh;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    
+  }
+ .leftp{
+    /* background-color: aquamarine; */
+    position: absolute;
+    display: inline;
+    padding: 70px;
+ }
+ h3{
+    margin-top:35px;
+    font-size: 20px;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .features{
+    display: inline;
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    
+ }
+ .p2c1{
+    color:lightslategrey;
+    margin-top:125px;
+    font-size: 15px;
+ }
+ .p2c2{
+    color:lightslategrey;
+    margin:20px 0 0 30px;
+    font-size: 15px;
+ }
+ .rightp{
+    
+    display: grid;
+   grid-template-areas: 
+   "im1 im2"
+   "im1 im3"
+   "im4 im4" ;
+   margin:60px 0 0 500px; 
+   width:160%;
+   height: 120vh;
+  }
+  .rightp >div{
+    background-color: aqua;
+    /* padding:50px; */
+  }
+  img{
+    width:100%;
+   height:100%;
+   border:5px solid white;
+   background-size: contain;
+   
+  }
+  .i1{
+    grid-area:im1;
+  }
+  .i2{
+    grid-area:im2;
+  }
+  .i3{
+    grid-area:im3;
+  }
+  .i4{
+    grid-area:im4;
+    height:60%;
+  }
+  /* page3 */
+  .page3{
+    width:100%;
+    height:200vh;
+    padding:0px;
+    background-color:rgb(17, 34, 34) ;
+  }
+  
+  .header1 p{
+    font-size: 40px;
+    padding-top:50px;
+    /* font-weight: bold; */
+    display: block;
+  }
+  .header1{
+    text-align:center;
+    color:gainsboro;
+    font-size: 15px;
+    /* padding-top:25px; */
+  }
+  .vbox{
+    width:150px;
+    height: 800px;
+    background-color:rgb(194, 189, 189);
+    margin:100px 0 0 550px;
+    position: absolute;
+    display: inline;
+    z-index:0;
+  }
+  .hbox{
+    width:350px;
+    height:250px;
+    border:10px solid white;
+    position:absolute;
+    z-index:1;
+    background-image: url("img/newc5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:60px 0 0 230px ;
+  }
+  .row1{
+    position: block;
+    margin:100px 0 0 100px;
+    display: inline;
+    
+  }
+  h2{
+    display: inline;
+    color:rgb(17, 34, 34);;
+    margin:150px 0 0 520px;
+    position: absolute;
+  }
+  .num1{
+    color:gray;
+    margin:190px 0 0 500px;
+    display: inline;
+    position: absolute;
+  }
+  .min span{
+    margin:100px 0 0 750px;
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+  }
+  .mintext{
+    margin:150px 0 0 750px;
+    display: inline;
+    position: absolute;
+    font-size: 15px;
+  }
+  .minii{
+    display: inline;
+    position: absolute;
+    margin:220px 0 0 750px;
+
+  }
+  .row2{
+    margin:-670px 0 0 100px;
+    color:white;
+    font-size: 30px;
+    display: inline;
+    position: absolute;
+  }
+  .ind span{
+    padding:150px 0 0 125px;
+    font-size: 30px;
+    display: inline;
+    /* position: absolute; */
+  }
+  .indtext{
+    margin:50px 0 0 -145px;
+    display: inline;
+    position: absolute;
+    font-size: 14px;
+    width:120%;
+    /* background-color: aqua; */
+  }
+  .indv{
+    margin:110px 0 0 125px;
+    font-size:15px;
+  }
+  .num2{
+    margin:-100px 0 0 480px;
+    font-size:15px;
+    color:gray;
+  }
+  .ind h2{
+  display: inline;
+  color:rgb(17, 34, 34);
+  margin:-70px 0 0 480px;
+  position: absolute;
+  font-size: 25px;
+  }
+ .hbox2{
+  width:350px;
+  height:250px;
+  border:10px solid white;
+  position:absolute;
+  z-index:1;
+  background-image: url("img/Kalakrity-Interiors-In-Kolkata.jpg");
+  background-size: cover;
+  margin:-130px 0 0 570px ;
+ }  
+ .row3{
+  columns: red;
+  margin:-735px 0 0 150px;
+    color:white;
+    font-size: 30px;
+    display: inline;
+    position: absolute;
+ }  
+ .hbox3{
+   width:350px;
+    height:250px;
+    border:10px solid white;
+    position:absolute;
+    z-index:1;
+    background-image: url("img/newc3.jpg");
+    background-size: cover;
+    margin:350px 0 0 80px ;
+ }
+ .num3{
+  margin:455px 0 0 445px;
+    display: inline;
+    position: absolute;
+    font-size: 15px;
+     color:gray;
+ }
+ h4{
+  margin:420px 0 0 460px;
+  color:rgb(17, 34, 34);
+  font-size: 25px;
+ }
+ .japs{
+  margin:-350px 0 0 750px;
+      color:white;
+      font-size:30px;
+ }
+ .japtext{
+  margin:10px 0 0 750px;
+    /* display: inline;
+    position: absolute; */
+    font-size: 15px;
+    color:white;
+ }
+ .japv{
+    margin:20px 0 0 750px;
+    font-size:15px;
+     color:white;
+  }
+  /* page4 */
+  .page4{
+    width:100%;
+    height:140vh;
+    /* background-color: aqua; */
+    padding: 50px;
+  }
+  .p4h1{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin:100px 0 0 0 ;
+  }
+  .p4grid{
+    display: flex;
+    width:100%;
+    height:300px;
+    color:silver;
+    margin-top:50px;
+    background-color:rgb(17, 34, 34); ;
+  }
+  .ii1{
+    width:200px;
+  }
+  .ii2{
+    padding:50px 5px 5px 10px;
+    width:350px;
+    background-color: rgb(17, 34, 34);
+    font-size:15px;
+  }
+  .by1{
+    margin-top:50px;
+  }
+  .ii3{
+    width:200px;
+  }
+  .p4h2{
+    color:black;
+    font-size:30px;
+    font-weight:bold;
+    margin-top:50px;
+    text-align: center;
+  }
+  .dir{
+    /* width:100px;
+    height: 100px;
+    background-color:black; */
+    margin:-30px 0 0 900px;
+    /* background-color: blueviolet; */
+  }
+  .p4h3{
+    font-size: 15px;
+    color: gray;
+    margin-top:30px;
+    text-align: center;
+  }
+  .flex2{
+    display: flex;
+    width:55%;
+    height:40px;
+    /* background-color: aqua; */
+    margin:30px 0 0 250px;
+    color: gray;
+    font-size: 20px;
+    justify-content: space-between;
+  }
+  .item1{
+    width:520px;
+    color: gray;
+    font-size: 20px;
+    box-shadow: 1px 1px gainsboro;
+  }
+  .item2{
+    background-color:rgb(17, 34, 34);
+    padding:5px;
+    font-size: 15px;
+    justify-items: center;
+    align-items: center;
+  }
+  .footers{
+    background-color:rgb(17, 34, 34);
+    width:100%;
+    height:400px;
+    display: grid;
+    grid-template-columns:200px 100px 100px 100px 200px;
+    grid-template-rows: 30px 100px;
+    justify-content: space-around;
+    row-gap: 200px;
+    color:white;
+    padding:50px 0 0 0;
+    font-weight: 100;
+    line-height: 1.5;
+  }
+  #mail {
+    width:110%;
+    height:40px;
+    background-color:transparent;
+    margin-top:30px;
+    border:1px solid white;
+    padding:10px 0 0 10px;
+    font-size: 15px;
+  }
+  #mail span{
+    margin:10px 60px 0 20px;
+  }
+ h1{
+  font-color:white;
+  font-weight: 200;
+  /* font-weight: 100; */
+  }
+  #about_about{
+    margin-top:30px;
+    padding:10px 0 0 20px;
+    width:150%;
+  }
+  .com_about{
+    margin-top:30px;
+    padding:10px 0 0 20px;
+    width:200%;
+  }
+  .support_about{
+    margin-top:30px;
+    padding:10px 0 0 20px;
+    width:200%;
+  }
+  .social{
+    display: flex;
+    width:100%;
+    height: 20px;
+    justify-content: space-evenly;
+    margin:50px 0 0 0;
+  }
+  a{
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+  }
+.hline{
+  width:1050px;
+  height:1px;
+  background-color: white;
+  margin:0 0 0 0px;
+} 
+.par{
+   width:500%;
+   text-align:center; 
+   margin-top:50px;
+   font-size: 15px;
+}
